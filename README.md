@@ -2,7 +2,7 @@
 
 ## 1.Structure (struct) in C
 Defining user-defined data types using struct.
-## 2.Structure
+## 2.Nested Structure
 One structure (struct node) used as a member inside another structure (struct node1).
 ## 3.Structure Member Access
 Dot operator (.)
