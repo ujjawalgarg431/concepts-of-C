@@ -39,7 +39,7 @@ ptr->z
 ## Memory Layout of Structures
 Address mapping of structure array
 ## Relationship Between Array, Pointer & Structure
-Array name as base address
+Array name as base address.
 Pointer referencing array of structures
 ## Looping Through Structures
 for loop used to traverse array of structures
