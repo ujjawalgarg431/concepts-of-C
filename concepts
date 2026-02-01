@@ -1,4 +1,4 @@
-# Structure (struct) in C
+#Structure (struct) in C
 Defining user-defined data types using struct.
 # Nested Structure
 One structure (struct node) used as a member inside another structure (struct node1).
