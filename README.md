@@ -1,54 +1,54 @@
 # concepts-of-C
 
-## Structure (struct) in C
+## 1.Structure (struct) in C
 Defining user-defined data types using struct.
-## Nested Structure
+## 2.Structure
 One structure (struct node) used as a member inside another structure (struct node1).
-## Structure Member Access
+## 3.Structure Member Access
 Dot operator (.)
 Nested access (f.e.a)
-## size of Operator
+## 4.size of Operator
 Size of a structure
 Size difference due to nesting
-## Pointer-like Address Understanding
+## 5.Pointer-like Address Understanding
 Concept of memory addresses (1000, 2000, 4000 etc.)
-## Scope of Structure Variables
+## 6.Scope of Structure Variables
 Difference between structure name and variable name
-## Structure Declaration vs Definition
+## 7.Structure Declaration vs Definition
 Declaring a structure
 Creating structure variables
-## Multiple Structures Interaction
+## 8.Multiple Structures Interaction
 Structure a inside structure b
-## Pointer to Array Elements
+## 9.Pointer to Array Elements
 Using pointer to access array values
-## Array of Structures
+## 10.Array of Structures
 Declaring an array of structures\
 (struct S1 a[ ])
-## Pointer inside Structure
+## 11.Pointer inside Structure
 Structure containing a pointer member\
 (struct S1 *p)
-## Pointer to Structure
+## 12.Pointer to Structure
 Assigning structure array address to pointer\
 (struct S1 *ptr = a;)
-## Pointer Arithmetic on Structure Pointer
+## 13.Pointer Arithmetic on Structure Pointer
 ptr + 1 moving to next structure element
-## Nested Member Access
+## 14.Nested Member Access
 a[0].z\
 ptr->z\
 (*ptr).z
-## Memory Layout of Structures
+## 15.Memory Layout of Structures
 Address mapping of structure array
-## Relationship Between Array, Pointer & Structure
+## 16.Relationship Between Array, Pointer & Structure
 Array name as base address\
 Pointer referencing array of structures
-## Looping Through Structures
+## 17.Looping Through Structures
 for loop used to traverse array of structures
-## Call by Value
+## 18.Call by Value
 Passing a structure variable to a function\
 changes inside function do not affect original structure
-## Call by Reference
+## 19.Call by Reference
 Passing address of structure to a function\
 Changes inside function do affect original structure
-## Function Calls
+## 20.Function Calls
 Function with structure parameter\
 Function with pointer-to-structure parameter
