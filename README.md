@@ -22,33 +22,33 @@ Structure a inside structure b
 ## Pointer to Array Elements
 Using pointer to access array values
 ## Array of Structures
-Declaring an array of structures
+Declaring an array of structures\
 (struct S1 a[ ])
 ## Pointer inside Structure
-Structure containing a pointer member
+Structure containing a pointer member\
 (struct S1 *p)
 ## Pointer to Structure
-Assigning structure array address to pointer
+Assigning structure array address to pointer\
 (struct S1 *ptr = a;)
 ## Pointer Arithmetic on Structure Pointer
 ptr + 1 moving to next structure element
 ## Nested Member Access
-a[0].z
-ptr->z
+a[0].z\
+ptr->z\
 (*ptr).z
 ## Memory Layout of Structures
 Address mapping of structure array
 ## Relationship Between Array, Pointer & Structure
-Array name as base address.
+Array name as base address\
 Pointer referencing array of structures
 ## Looping Through Structures
 for loop used to traverse array of structures
 ## Call by Value
 Passing a structure variable to a function\
-changes inside function do not affect original structure\
+changes inside function do not affect original structure
 ## Call by Reference
 Passing address of structure to a function\
-Changes inside function do affect original structure\
+Changes inside function do affect original structure
 ## Function Calls
 Function with structure parameter\
-Function with pointer-to-structure parameter\
+Function with pointer-to-structure parameter
