@@ -7,7 +7,7 @@ One structure (struct node) used as a member inside another structure (struct no
 ## Structure Member Access
 Dot operator (.)
 Nested access (f.e.a)
-## sizeof Operator
+## size of Operator
 Size of a structure
 Size difference due to nesting
 ## Pointer-like Address Understanding
@@ -43,3 +43,12 @@ Array name as base address.
 Pointer referencing array of structures
 ## Looping Through Structures
 for loop used to traverse array of structures
+## Call by Value
+Passing a structure variable to a function
+Changes inside function do not affect original structure
+## Call by Reference
+Passing address of structure to a function
+Changes inside function do affect original structure
+## Function Calls
+Function with structure parameter
+Function with pointer-to-structure parameter
