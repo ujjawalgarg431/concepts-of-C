@@ -44,11 +44,11 @@ Pointer referencing array of structures
 ## Looping Through Structures
 for loop used to traverse array of structures
 ## Call by Value
-Passing a structure variable to a function
-Changes inside function do not affect original structure
+Passing a structure variable to a function\
+changes inside function do not affect original structure\
 ## Call by Reference
-Passing address of structure to a function
-Changes inside function do affect original structure
+Passing address of structure to a function\
+Changes inside function do affect original structure\
 ## Function Calls
-Function with structure parameter
-Function with pointer-to-structure parameter
+Function with structure parameter\
+Function with pointer-to-structure parameter\
